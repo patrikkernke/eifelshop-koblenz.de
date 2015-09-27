@@ -1,0 +1,35 @@
+
+$clPrimary: rgb(180, 24, 24);
+
+.filter {
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0; 
+    background-color: $clPrimary;
+    opacity: 0.75;
+    z-index: 100;
+}
+
+#headerwrap .splash {
+    position: relative;
+    z-index: 1000;
+
+    h4 {
+        margin-top: 50px;
+        padding: 30px 50px 30px;
+        font-size: 24px;
+        line-height: 125%;
+        
+        color: white;
+        border: 2px solid white;
+        border-radius: 3px;
+
+        a {
+            line-height: 200%;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
