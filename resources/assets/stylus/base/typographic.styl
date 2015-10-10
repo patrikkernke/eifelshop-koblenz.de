@@ -1,0 +1,51 @@
+/**
+ *
+ * Typographic styles & variables
+ *
+ */
+ 
+@import url(https://fonts.googleapis.com/css?family=Open\+Sans:400,700\|Open\+Sans\+Condensed:300)
+
+// font-stacks
+type-family(type = default)    
+    if type == default
+        font-family: 'Open Sans', 'Neue Helvetica', Helvetica, Arial, sans-serif
+        font-weight: 400
+    if type == bold
+        font-family: 'Open Sans', 'Neue Helvetica', Helvetica, Arial, sans-serif
+        font-weight: 700
+    if type == condensed
+        font-family: 'Open Sans Condensed', 'Neue Helvetica', Helvetica, Arial, sans-serif
+        font-weight: 300 
+
+
+// modular scale
+type_base = rhythm(3)
+
+type = {
+    size : {
+        smaller : type_base * 0.563
+        small   : type_base * 0.75
+        default : type_base
+        big     : type_base * 1.333
+        bigger  : type_base * 1.777
+        biggest : type_base * 2.369
+        megabig : type_base * 3.157
+    }
+    line_height : {
+        smaller : rhythm(2)
+        small   : rhythm(3)
+        default : rhythm(4)
+        big     : rhythm(5)
+        bigger  : rhythm(6)
+        biggest : rhythm(8)
+        megabig : rhythm(12)
+    }
+}
+
+// mixin
+type-size(scale = default)
+    font-size: type.size[scale]
+    line_height: type.line_height[scale]
+
+

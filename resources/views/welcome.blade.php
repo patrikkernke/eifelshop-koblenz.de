@@ -8,8 +8,9 @@
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <title>Eifelshop - Kletterladen in Koblenz</title>
-
-    <link href="/css/app.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="/css/all.css" rel="stylesheet">
 
   </head>
 
@@ -19,41 +20,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <div class="splash">
+                    <div class="Splash">
                         <h1><img src="/images/eifelshop-logo_splash.png" alt="Eifelshop Logo"></h1>
                         <h4>
-                            Dein Kletterladen in Koblenz eröffnet am 10.10.2015 <br>
-                            <a href="#informationen">
-                                <i class="fa fa-angle-double-down"></i>
-                                Mehr 
-                                <i class="fa fa-angle-double-down"></i>
-                            </a> 
+                            Dein Kletterladen in Koblenz eröffnet am Samstag den 10.10.2015!<br>
+                            <strong>Besuch uns ab 11:00 Uhr morgens.</strong> <br>
                         </h4>
                     </div>
                 </div>
             </div><!--/row -->
         </div> <!-- /container -->
 
-        <div class="filter"></div>
+        <div class="Filter"></div>
     </div><!--/headerwrap -->
 
-    {{-- <section id="event">
+  {{--   <section id="aboutus">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 centered">
-                    <h1>Eröffnungsfeier</h1>
-                    <p>Details...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="aboutus">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 centered">
-                    <h1>Der Eifelshop</h1>
-                    <p>Wer ist der Eifelshop? Was macht er?</p>
+                    <h1>Dein Kletterladen für unsere Leidenschaft</h1>
                 </div>
             </div>
         </div>
@@ -61,42 +46,52 @@
     
     <div class="container">
         <div class="row centered mt mb">
-            <h1>Eifelshop-Marken</h1>
+            <h2>Unsere Kletterprodukte</h2>
             
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio01.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_ABK.png" class="Thumb img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio02.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_Goodgrip.png" class="Thumb img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio03.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_Moon.png" class="Thumb img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio04.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_Ocun.png" class="Thumb img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio05.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_Slackline-Tools.png" class="Thumb img-responsive"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-                <a href="work.html"><img src="/images/portfolio/folio06.png" class="img-responsive"></a>
+                <a href="#"><img src="/images/portfolio/product-logos_Steinwild.png" class="Thumb img-responsive"></a>
             </div>
         </div><!--/row -->
     </div><!--/container -->
-    
-    <div id="social">
+
+    <div class="Map">
         <div class="container">
             <div class="row centered">
-                
+                <h2>Wo findest du uns?</h2>
+            </div>
+        </div>
+    </div>
+    <div class="Map__content">
+        <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/rockfight.cifk90ces014etaknybp81dvg/attribution,zoompan.html?access_token=pk.eyJ1Ijoicm9ja2ZpZ2h0IiwiYSI6ImNpZms5MGN0bTAxM2Z1ZWx5NXl6b2xiNDcifQ.RCh5EsRRGl_JYFX8Bm-2xw'></iframe>
+    </div>
+    
+    <div class="Partner">
+        <div class="container">
+            <div class="row centered">
                 <div class="col-lg-6">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <h3 class="Partner__title">Unser Partner</h3>
+                    <a href="http://www.eifelblock.de">
+                        <img src="/images/logo-eifelblock.png" alt="Eifelblock Logo">
+                    </a>
                 </div>
-                <div class="col-lg-6">
-                    <a href="http://www.eifelblock.de">Eifelblock</a>
-                </div>
-
             </div><!--/row -->
         </div><!--/container -->
+        <div class="Filter"></div>
     </div><!--/social -->
 
     <div id="footerwrap">
@@ -104,10 +99,9 @@
             <div class="row centered">
                 <div class="col-lg-4">
                     <p>
-                        <b>Adresse</b> <br>
-                        Eifelshop (Inh. Simon Fluck) <br>
+                        <b>Eifelshop (Inh. Simon Fluck) </b> <br>
                         Ernst-Abbe-Str. 13 <br>
-                        56079 Koblenz
+                        56070 Koblenz
                     </p>
                 </div>
             
@@ -115,15 +109,7 @@
                     <p>
                         <b>Kontaktdaten</b> <br>
                         Telefon 0261 - 988 111 222 <br>
-                        Mail info@eifelshop.de
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p>
-                        <b>Rechtliches</b> <br>
-                        BIC DE88129399102938 <br>
-                        IBAN MALEDE23KO <br>
-                        Steuernummer 32/2123/2223
+                        Mail info@eifelshop-koblenz.de
                     </p>
                 </div>
             </div>

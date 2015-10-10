@@ -1,5 +1,9 @@
 var elixir = require('laravel-elixir');
 
+// vendor packages
+require('laravel-elixir-stylus');
+var nib = require('nib');
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -12,6 +16,15 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.stylus('app.styl', 'resources/assets/css/stylus.css', { 
+        use: nib(),
+        'include css': true
+    })
+    .styles([
+        'blacktie-inset_theme.css',
+        'stylus.css'
+    ])
+    .browserSync({ proxy: 'eifelshop-koblenz.app'});
+    
     mix.copy('node_modules/font-awesome/fonts', 'public/fonts');
 });

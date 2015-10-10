@@ -1,0 +1,64 @@
+/**
+ *
+ * Stylus main-file
+ *
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:300");
+.Filter {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(180,24,24,0.75);
+  transition: background-color 1s ease-in;
+}
+.Splash {
+  position: relative;
+  z-index: 1000;
+}
+.Splash h4 {
+  margin-top: 60px;
+  padding: 30px 60px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 125%;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+.Thumb {
+  background-color: #f2f2f2;
+}
+.Map {
+  padding: 0;
+  margin: 0;
+  background-color: #4a4a4a;
+}
+.Map h2 {
+  margin: 0;
+  padding: 36px 0 36px;
+  color: #fff;
+}
+.Partner {
+  position: relative;
+  margin-top: -6px;
+  padding: 36px 0 60px;
+  background: url("/images/back-eifelblock.jpg") 0 25%;
+}
+.Partner__title {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  color: #fff;
+}
+.Partner img {
+  position: relative;
+  z-index: 1001;
+}
+.Partner:hover .Filter {
+  background-color: rgba(47,47,47,0.75);
+}
+
+/*# sourceMappingURL=stylus.css.map */
