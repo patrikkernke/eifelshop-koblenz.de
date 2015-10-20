@@ -23,8 +23,9 @@
                     <div class="Splash">
                         <h1><img src="/images/eifelshop-logo_splash.png" alt="Eifelshop Logo"></h1>
                         <h4>
-                            Dein Kletterladen in Koblenz eröffnet am Samstag den 10.10.2015!<br>
-                            <strong>Besuch uns ab 11:00 Uhr morgens.</strong> <br>
+                            <strong>Öffnungszeiten</strong><br>
+                            Montag bis Freitag von 14–20 Uhr<br>
+                            Samstag von 11–17 Uhr
                         </h4>
                     </div>
                 </div>
@@ -83,7 +84,7 @@
     <div class="Partner">
         <div class="container">
             <div class="row centered">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <h3 class="Partner__title">Unser Partner</h3>
                     <a href="http://www.eifelblock.de">
                         <img src="/images/logo-eifelblock.png" alt="Eifelblock Logo">
