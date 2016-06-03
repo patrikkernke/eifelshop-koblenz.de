@@ -129,7 +129,7 @@
                 <div class="col-lg-4">
                     <p>
                         <b>Kontaktdaten</b> <br>
-                        Telefon 0261 - 988 111 222 <br>
+                        Telefon 0261 - 98 88 72 44 <br>
                         Mail info@eifelshop-koblenz.de
                     </p>
                 </div>
