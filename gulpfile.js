@@ -24,7 +24,7 @@ elixir(function(mix) {
         'blacktie-inset_theme.css',
         'stylus.css'
     ])
-    .browserSync({ proxy: 'eifelshop-koblenz.app'});
+    .browserSync({ proxy: 'eifelshop.dev'});
     
     mix.copy('node_modules/font-awesome/fonts', 'public/fonts');
 });

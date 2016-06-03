@@ -19,15 +19,35 @@
     <div id="headerwrap">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-lg-8 col-lg-offset-2 col-sm-12" >
+                    
                     <div class="Splash">
+
                         <h1><img src="/images/eifelshop-logo_splash.png" alt="Eifelshop Logo"></h1>
+                        
                         <h4>
                             <strong>Öffnungszeiten</strong><br>
                             Montag bis Freitag von 14–20 Uhr<br>
                             Samstag von 11–17 Uhr
                         </h4>
+
+                        <div class="Splash__Events row">
+                                <div class="col-sm-6">
+                                    <div class="Splash__Event">
+                                        <strong>Schnupperklettern am Fels</strong> <br>
+                                        11. Juni 2016 und 2. Juli 2016
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="Splash__Event">
+                                        <strong>Top Rope Kletterkurs am Fels</strong> <br>
+                                        12. Juni 2016 und 3. Juli 2016
+                                    </div>
+                                </div>
+                        </div>
+
                     </div>
+
                 </div>
             </div><!--/row -->
         </div> <!-- /container -->
